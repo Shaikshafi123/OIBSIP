@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" type="text/css" />
+    <div id="scroll-progress"></div>
+  </head>
+
+  <body>
+    <main id="main" class="main">
+      <!-- .header -->
+      <header class="header">
+        <h1 class="title" id="title">Dr B.R. Ambedkar</h1>
+        <p class="title-description"> Indian jurist, economist, social reformer and political leader</p>
+        <figure class="media" id="div-img">
+          <img
+            class="media__img"
+            id="image"
+            src="https://i0.wp.com/velivada.com/wp-content/uploads/2018/05/ambedkar.jpg?fit=810%2C450&ssl=1.jpg"
+            alt="Ratan Tata at the Launch of the world's cheapest car - The Nano"
+          />
+          <figcaption id="img-caption" class="media__caption">
+            Dr B.R. Ambedkar
+          </figcaption>
+        </figure>
+      </header>
+      <!-- tribute-info -->
+      <article class="tribute-info" id="tribute-info">
+        <h3 class="headline">Here's a time line of  Dr B.R. Ambedkar's life:</h3>
+        <!-- .list-of-time -->
+        <ul class="list-of-time">
+          <li><time class="time">1891</time> -  In 14 April, Bhimrao is born in the British-founded town of Mhow in Central Provinces (today’s Madhya Pradesh) to Ramji Sakpal and Bhimabai; Mhow, near Indore, was and still is a cantonment.</li>
+          <li>
+            <time class="time">1900</time> -Bhimrao joins the government high school in Satara. He got his primary education at a school in Dapoli, a small town in Ratnagiri District, in Konkan Maharashtra.
+          </li>
+          <li>
+            <time class="time">1904</time> -  Bhimrao joins the Elphinstone High School, Bombay.
+          </li>
+          <li>
+            <time class="time">1907</time> -Matriculation from Elphinstone High School, Bombay, with 382 marks out of 750. Marriage with Rami (Ramabai), daughter of Bhiku Walangkar.
+          </li>
+          <li>
+            <time class="time">1912</time> - Graduation from Elphinstone College, affiliated to University of Bombay.
+          </li>
+          <li>
+            <time class="time">1912</time> -  In December, son Yeshwant is born.
+          </li>
+          <li>
+            <time class="time">1913</time> - Joins Baroda State Force as a lieutenant. On 2 February, Bhim’s father, Ramji Sakpal, passes away. In July, Ambedkar arrives in New York for higher studies in Columbia University.
+          </li>
+          <li>
+            <time class="time">1915</time> - On June 5, Ambedkar is awarded an MA. He majors in Economics; Sociology, History, Philosophy, Anthropology and Politics were the other subjects of study. For his MA, he wrote a thesis titled “Ancient Indian Commerce”.
+          </li>
+          <li>
+            <time class="time">1917</time> -  his scholarship came to an end and the Baroda government
+            called him back. The Maharaja of Baroda appointed Ambedkar as his "Defense
+            Secretary". Despite his education, once again Ambedkar faced resistance and
+            prejudice because of his caste.
+          </li>
+          <li>
+            <time class="time">1935</time> - Ambedkar was appointed principal of the Government Law College,
+            Bombay, a position he held for two years. Settling in Mumbai, Ambedkar
+            oversaw the construction of a house, and stocked his personal library with more
+            than 50,000 books. His wife Ramabai died after a long illness in the same year.
+          </li>
+          <li>
+            <time class="time">1936</time> - Ambedkar founded the ‘Independent Labour Party’, which contested in
+            the 1937 Bombay election to the Central Legislative Assembly for the 13
+            reserved and 4 general seats and securing 11 and 3 seats respectively. Ambedkar published his book ‘Annihilation of Caste’ in the same year. It spoke
+            strongly against the caste system. 
+          </li>
+          <li>
+            <time class="time">1946</time> -  participated in the elections held for the ‘Constituent
+            Assembly of India’. However, He could not perform very well.
+          </li>
+          <li>
+            <time class="time">1947</time> - Upon India's independence on 15 August 1947, the new Congress-led
+            government invited Ambedkar to serve as the nation's first Law Minister, which
+            he accepted.
+          </li>
+          <li>
+            <time class="time">1956</time> - On 6 December 1956, Dr. B R Ambedkar passed away
+            at his home in Delhi.
+          </li>
+          
+        </ul>
+        <blockquote class="quote">
+          <p>
+            Dr. B.R. Ambedkar (1891-1956) was a prominent Indian jurist, social reformer, and political leader. Born into a Dalit (formerly untouchable) family, he faced discrimination and untouchability, which fueled his determination to fight against social injustices. Dr. Ambedkar played a pivotal role in drafting the Indian Constitution and championed the rights of marginalized communities, especially Dalits. He emphasized education as a means to uplift the oppressed and fought for equal rights and social justice. His work paved the way for affirmative action policies to address historical injustices. Dr. Ambedkar's vision for a just and egalitarian society continues to inspire generations and his legacy as a social reformer and architect of the Indian Constitution remains significant in shaping modern India.
+          </p>
+          <cite>  "Dr. Ambedkar's struggle to eradicate social discrimination and untouchability in India is an inspiration to all those who fight for justice and equality. His legacy extends beyond India's borders and serves as a beacon of hope for oppressed communities around the world." -- Nelson Mandela, Former President of South Africa
+          </cite>
+        </blockquote>
+      </article>
+      <footer class="footer">
+        
+      </footer>
+    </main>
+  </body>
+</html>
+<style>
+    /* base styles */
+
+:root {
+  font-size: 16px;
+  box-sizing: border-box;
+
+  --bg-color: #f9f4ef;
+  --headline-color: #020826;
+  --text-color: #716040;
+  --time-color: #8c7851;
+  --secondary-color: #eaddcf;
+  --media-caption-color: #8c7851;
+  --tertiary-color: #f25042;
+  --border-color: #020826;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: var(--bg-color);
+}
+
+/* header */
+.header {
+  padding: 1.4em 0;
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: var(--headline-color);
+  border-bottom: 1px solid var(--text-color);
+  margin-bottom: 0.15em;
+}
+
+.title-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+}
+
+@media (min-width: 35em) {
+  .header {
+    padding: 1.8em 0;
+  }
+
+  .title {
+    font-size: 2.8rem;
+  }
+
+  .title-description {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 50em) {
+  .header {
+    padding: 2em 0;
+  }
+
+  .title {
+    font-size: 3rem;
+  }
+
+  .title-description {
+    font-size: 1.5rem;
+  }
+}
+
+/* media */
+.media {
+  background-color: var(--secondary-color);
+  width: 100%;
+  padding: 3em 1.5em 1.5em;
+  margin: 2em auto 1em;
+}
+
+.media__img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  border: 1px solid var(--border-color);
+  margin: 0 auto;
+}
+
+.media__caption {
+  color: #716040;
+  padding: 0 1em;
+  margin-top: 1.5em;
+}
+
+@media (min-width: 35em) {
+  .media {
+    padding: 4em 4em 1.5em;
+  }
+
+  .media__caption {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 50em) {
+  .media {
+    padding: 5em 5em 3em;
+  }
+
+  .media__img {
+    max-width: min(100%, 900px);
+  }
+
+  .media__caption {
+    max-width: 720px;
+    margin: 1em auto 0;
+  }
+}
+
+/* article */
+@media (min-width: 35em) {
+  .tribute-info {
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+
+.tribute-info > * + * {
+  margin: 3em auto;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 400;
+  text-align: center;
+  color: var(--headline-color);
+}
+
+.list-of-time {
+  padding: 0 4em;
+}
+
+.list-of-time * {
+  margin-top: 1.2em;
+}
+
+.list-of-time > li {
+  font-size: 1.2rem;
+  text-align: justify;
+  color: var(--text-color);
+}
+
+.list-of-time .time {
+  font-weight: 700;
+}
+
+.quote {
+  color: var(--text-color);
+  padding-top: 1em;
+  border-top: 1px solid var(--time-color);
+  margin: 2em 4em;
+  text-align: center;
+}
+
+.quote > p {
+  margin-bottom: 0.5em;
+}
+
+/* footer */
+.footer {
+  background-color: var(--secondary-color);
+  color: var(--text-color);
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1.5em;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+body {
+  min-height: 200vh;
+}
+
+#scroll-progress {
+  position: fixed;
+  top: 0;
+  width: 0%;
+  height: 4px;
+  background: #000000;
+  z-index: 10000;
+}
+</style>
+<script>
+  const scrollProgress = document.getElementById('scroll-progress');
+const height =
+  document.documentElement.scrollHeight - document.documentElement.clientHeight;
+
+window.addEventListener('scroll', () => {
+  const scrollTop =
+    document.body.scrollTop || document.documentElement.scrollTop;
+  scrollProgress.style.width = `${(scrollTop / height) * 100}%`;
+});
+</script>
